@@ -9,7 +9,7 @@ pipeline {
         //TODO # 1 --> once you sign up for Docker hub, use that user_id here
         registry = "valikkr/my-first-docker-repo:${BUILD_NUMBER}"
         //TODO #2 - update your credentials ID after creating credentials for connecting to Docker Hub
-        registryCredential = 'dockerhub-cred'
+        registryCredential = 'dockerhub-cred1'
 //        dockerImage = 'valikkr/my-first-docker-repo:latest'
     }
     
