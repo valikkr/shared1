@@ -1,3 +1,3 @@
 # shared11
 1
-@@ -1,2 +1,3 @@
+sudo chmod 666 /var/run/docker.sock
