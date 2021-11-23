@@ -1,7 +1,7 @@
 FROM python:3.6
 
 RUN apt-get update
-COPY . /app
+COPY ./app /app
 WORKDIR /app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
